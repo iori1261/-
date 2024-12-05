@@ -1,4 +1,4 @@
-﻿namespace おみくじ
+namespace おみくじ
 {
     partial class Form1
     {
@@ -57,59 +57,60 @@
             // lblFortune
             // 
             this.lblFortune.Font = new System.Drawing.Font("MS UI Gothic", 48F);
-            this.lblFortune.Location = new System.Drawing.Point(225, 6);
+            this.lblFortune.ForeColor = System.Drawing.Color.Red;
+            this.lblFortune.Location = new System.Drawing.Point(219, 9);
             this.lblFortune.Name = "lblFortune";
-            this.lblFortune.Size = new System.Drawing.Size(201, 87);
+            this.lblFortune.Size = new System.Drawing.Size(282, 87);
             this.lblFortune.TabIndex = 1;
-            this.lblFortune.Text = "運勢";
             // 
             // lblS
             // 
             this.lblS.Font = new System.Drawing.Font("MS UI Gothic", 15F);
-            this.lblS.Location = new System.Drawing.Point(48, 262);
+            this.lblS.Location = new System.Drawing.Point(12, 262);
             this.lblS.Name = "lblS";
-            this.lblS.Size = new System.Drawing.Size(77, 23);
+            this.lblS.Size = new System.Drawing.Size(99, 23);
             this.lblS.TabIndex = 4;
             this.lblS.Text = "学問：";
             // 
             // lblD
             // 
             this.lblD.Font = new System.Drawing.Font("MS UI Gothic", 15F);
-            this.lblD.Location = new System.Drawing.Point(48, 184);
+            this.lblD.Location = new System.Drawing.Point(12, 184);
             this.lblD.Name = "lblD";
-            this.lblD.Size = new System.Drawing.Size(77, 23);
+            this.lblD.Size = new System.Drawing.Size(99, 23);
             this.lblD.TabIndex = 5;
             this.lblD.Text = "願望：";
             // 
             // lblL
             // 
             this.lblL.Font = new System.Drawing.Font("MS UI Gothic", 15F);
-            this.lblL.Location = new System.Drawing.Point(48, 220);
+            this.lblL.Location = new System.Drawing.Point(12, 220);
             this.lblL.Name = "lblL";
-            this.lblL.Size = new System.Drawing.Size(77, 23);
+            this.lblL.Size = new System.Drawing.Size(99, 23);
             this.lblL.TabIndex = 6;
             this.lblL.Text = "恋愛：";
             // 
             // lblB
             // 
             this.lblB.Font = new System.Drawing.Font("MS UI Gothic", 15F);
-            this.lblB.Location = new System.Drawing.Point(48, 301);
+            this.lblB.Location = new System.Drawing.Point(12, 301);
             this.lblB.Name = "lblB";
-            this.lblB.Size = new System.Drawing.Size(77, 23);
+            this.lblB.Size = new System.Drawing.Size(99, 23);
             this.lblB.TabIndex = 7;
             this.lblB.Text = "商売：";
             // 
             // lblI
             // 
             this.lblI.Font = new System.Drawing.Font("MS UI Gothic", 15F);
-            this.lblI.Location = new System.Drawing.Point(48, 340);
+            this.lblI.Location = new System.Drawing.Point(12, 340);
             this.lblI.Name = "lblI";
-            this.lblI.Size = new System.Drawing.Size(77, 23);
+            this.lblI.Size = new System.Drawing.Size(99, 23);
             this.lblI.TabIndex = 8;
             this.lblI.Text = "病気：";
             // 
             // lblFr
             // 
+            this.lblFr.Font = new System.Drawing.Font("MS UI Gothic", 15F);
             this.lblFr.Location = new System.Drawing.Point(53, 93);
             this.lblFr.Name = "lblFr";
             this.lblFr.Size = new System.Drawing.Size(552, 77);
@@ -118,41 +119,41 @@
             // lblDr
             // 
             this.lblDr.Font = new System.Drawing.Font("MS UI Gothic", 15F);
-            this.lblDr.Location = new System.Drawing.Point(131, 184);
+            this.lblDr.Location = new System.Drawing.Point(102, 184);
             this.lblDr.Name = "lblDr";
-            this.lblDr.Size = new System.Drawing.Size(474, 23);
+            this.lblDr.Size = new System.Drawing.Size(503, 23);
             this.lblDr.TabIndex = 10;
             // 
             // lblLr
             // 
             this.lblLr.Font = new System.Drawing.Font("MS UI Gothic", 15F);
-            this.lblLr.Location = new System.Drawing.Point(131, 220);
+            this.lblLr.Location = new System.Drawing.Point(102, 220);
             this.lblLr.Name = "lblLr";
-            this.lblLr.Size = new System.Drawing.Size(474, 23);
+            this.lblLr.Size = new System.Drawing.Size(539, 23);
             this.lblLr.TabIndex = 11;
             // 
             // lblSr
             // 
             this.lblSr.Font = new System.Drawing.Font("MS UI Gothic", 15F);
-            this.lblSr.Location = new System.Drawing.Point(131, 262);
+            this.lblSr.Location = new System.Drawing.Point(102, 262);
             this.lblSr.Name = "lblSr";
-            this.lblSr.Size = new System.Drawing.Size(474, 23);
+            this.lblSr.Size = new System.Drawing.Size(503, 23);
             this.lblSr.TabIndex = 12;
             // 
             // lblBr
             // 
             this.lblBr.Font = new System.Drawing.Font("MS UI Gothic", 15F);
-            this.lblBr.Location = new System.Drawing.Point(131, 301);
+            this.lblBr.Location = new System.Drawing.Point(102, 301);
             this.lblBr.Name = "lblBr";
-            this.lblBr.Size = new System.Drawing.Size(474, 23);
+            this.lblBr.Size = new System.Drawing.Size(539, 23);
             this.lblBr.TabIndex = 13;
             // 
             // lblIr
             // 
             this.lblIr.Font = new System.Drawing.Font("MS UI Gothic", 15F);
-            this.lblIr.Location = new System.Drawing.Point(131, 340);
+            this.lblIr.Location = new System.Drawing.Point(97, 340);
             this.lblIr.Name = "lblIr";
-            this.lblIr.Size = new System.Drawing.Size(474, 23);
+            this.lblIr.Size = new System.Drawing.Size(544, 23);
             this.lblIr.TabIndex = 14;
             // 
             // Form1
